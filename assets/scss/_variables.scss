@@ -1,0 +1,57 @@
+$ucsc-primary-blue: #003c6c;
+$ucsc-primary-yellow: #fdc700;
+$ucsc-light-blue: #006aad;
+$ucsc-lighter-blue: #13a5dc;
+$ucsc-orange: #f29813;
+$ucsc-light-orange: #ffbf00;
+$ucsc-green: #93c02d;
+$ucsc-blue-green: #007988;
+$ucsc-magenta: #da216d;
+// 1. Global
+// ---------
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+$foundation-palette: ( primary: #003c6c, secondary: #006aad, tertiary: #13a5dc, success: #93c02d, warning: #f29813, alert: #b91c1c, );
+$primary-gray: #2b2b2b;
+$primary-blue: #003c6c;
+$primary-yellow: #fdc702;
+$secondary-blue: #006aad;
+$secondary-turquiose: #13a5dc;
+$body-turquiose: #09516b;
+$secondary-seagreen: #007988;
+$secondary-orange: #f29813;
+$secondary-yellow: #ffbf00;
+$secondary-green: #546d1a;
+$secondary-pink: #da216d;
+$light-gray: #f1f1f1;
+$medium-gray: #cacaca;
+$dark-gray: #3d3d3d;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white;
+$body-font-color: $black;
+$exquistic-font-family: 'Roboto Condensed',
+'Roboto',
+sans-serif;
+$body-font-family: 'Roboto',
+'Roboto Condensed',
+sans-serif;
+$body-antialiased: true;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-position: 1rem;
+$global-weight-normal: normal;
+$global-weight-bold: bold;
+$global-radius: 0;
+$global-menu-padding: 0.7rem 1rem;
+$global-menu-nested-margin: 1rem;
+$global-text-direction: ltr;
+$global-flexbox: true;
+$global-prototype-breakpoints: false;
+$global-button-cursor: auto;
+$global-color-pick-contrast-tolerance: 0;
+$print-transparent-backgrounds: true;
+// 2. Breakpoints
+// --------------
+$breakpoints: ( small: 0, medium: 400px, large: 640px, xlarge: 1024px, xxlarge: 1200px, xxxlarge: 1440px, xxxxlarge: 1800px, overlylarge: 2000px, );
