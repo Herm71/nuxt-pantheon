@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <HeaderGlobal />
-      <h1 class="title">UCSC Design System</h1>
+      <h1 class="title">UCSC Pantheon Updates</h1>
 
       <FooterSite />
     </div>
@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import HeaderGlobal from '~/components/HeaderGlobal.vue'
-import FooterSite from '~/components/FooterSite.vue'
+import HeaderGlobal from "~/components/HeaderGlobal.vue";
+import FooterSite from "~/components/FooterSite.vue";
 
 export default {
   components: { HeaderGlobal, FooterSite },
-}
+};
 </script>
 
 <style>
