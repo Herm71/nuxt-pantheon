@@ -37,9 +37,24 @@ export default {
 
     // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
-        '@nuxtjs/style-resources'
+        '@nuxtjs/style-resources',
+        '@nuxtjs/axios',
     ],
+    // Axios options
+    axios: {
+        baseURL: 'http://localhost:3000/',
+    },
+    publicRuntimeConfig: {
+        axios: {
+            browserBaseURL: process.env.BROWSER_BASE_URL
+        }
+    },
 
+    privateRuntimeConfig: {
+        axios: {
+            baseURL: process.env.BASE_URL
+        }
+    },
     styleResources: {
         scss: ['./assets/scss/*.scss']
     },

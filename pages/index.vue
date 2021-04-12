@@ -4,17 +4,16 @@
       <HeaderGlobal />
       <h1 class="title">UCSC Pantheon Updates</h1>
 
-      <FooterSite />
+      <Pantheon />
     </div>
   </div>
 </template>
 
 <script>
 import HeaderGlobal from "~/components/HeaderGlobal.vue";
-import FooterSite from "~/components/FooterSite.vue";
-
+import Pantheon from "~/components/Pantheon.vue";
 export default {
-  components: { HeaderGlobal, FooterSite },
+  components: { HeaderGlobal, Pantheon },
 };
 </script>
 
