@@ -1,4 +1,4 @@
-u {
+{
     "81cf9d89-c08b-419a-a74c-ffcdcd84766b": {
         "name": "ucsc-communications",
         "id": "81cf9d89-c08b-419a-a74c-ffcdcd84766b",
@@ -6,7 +6,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1501785972,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "9155b393-8e2a-49db-a536-24377d52daf6": {
@@ -16,7 +16,7 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1456628914,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "959fad08-1c16-436a-b525-ff0b48bea07f": {
@@ -26,7 +26,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1508784514,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "98989234-5e1d-43d9-9e0a-db30515a79e7": {
@@ -36,18 +36,8 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1500592161,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
-    },
-    "9a929a32-54da-4e9f-861a-32b8129d721e": {
-        "name": "ucsc-untraditional",
-        "id": "9a929a32-54da-4e9f-861a-32b8129d721e",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
-        "created": 1478743136,
-        "tags": "",
-        "frozen": true
     },
     "a30ab6d9-8b40-4682-b989-f35bb814c988": {
         "name": "ucsc-pbsci",
@@ -56,7 +46,7 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1531432857,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "ae05ce5c-521d-4b2c-9465-568fd33c30ae": {
@@ -66,7 +56,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1438188437,
-        "tags": "",
+        "tags": "ur",
         "frozen": true
     },
     "b02e4cfb-2a0a-41bb-ad18-35215d04a92a": {
@@ -76,7 +66,7 @@ u {
         "framework": "drupal8",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1588638075,
-        "tags": "",
+        "tags": "ur",
         "frozen": true
     },
     "d9e17546-08e2-4a0d-9693-a335399029da": {
@@ -86,7 +76,7 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1539126328,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "e8d8ceea-d6d6-486a-9b24-45a39be11a70": {
@@ -96,7 +86,7 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1544808549,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "5ba9848f-77ed-4fb9-887c-44255a71e2b5": {
@@ -106,7 +96,7 @@ u {
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1549056872,
-        "tags": "",
+        "tags": "ur",
         "frozen": true
     },
     "5d30e09d-db66-4c83-ac4d-a506c3c42d92": {
@@ -116,7 +106,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1507915160,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     },
     "68dfae49-b0e0-40cb-8a98-37944ac5cbec": {
@@ -126,7 +116,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1483644041,
-        "tags": "",
+        "tags": "ur",
         "frozen": true
     },
     "6ee9858b-6dd7-4243-978e-8629ee0e2b58": {
@@ -136,7 +126,7 @@ u {
         "framework": "wordpress",
         "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
         "created": 1594934371,
-        "tags": "",
+        "tags": "ur",
         "frozen": false
     }
 }
