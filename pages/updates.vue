@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Updates />
-  </div>
+  <Updates />
 </template>
 
 <script>

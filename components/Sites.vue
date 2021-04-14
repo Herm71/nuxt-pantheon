@@ -1,5 +1,13 @@
 <template>
-  <div id="sites">
+  <div id="sites" class="sites grid bg-orange-600">
+    <p class="grid-head grid-cell">ID</p>
+    <p class="grid-head grid-cell">Name</p>
+    <p class="grid-head grid-cell">Created</p>
+    <p class="grid-head grid-cell">Framework</p>
+    <p class="grid-head grid-cell">Owner</p>
+    <p class="grid-head grid-cell">Plan name</p>
+    <p class="grid-head grid-cell">Frozen?</p>
+    <p class="grid-head grid-cell">Tags</p>
     <Site
       v-for="(site, index) in sites"
       :id="site.id"
@@ -8,6 +16,8 @@
       :framework="site.framework"
       :owner="site.owner"
       :planName="site.plan_name"
+      :frozen="site.frozen"
+      :tags="site.tags"
       :key="index"
     />
   </div>
@@ -38,8 +48,9 @@ export default {
 };
 </script>
 
-<style scoped>
-p {
-  color: #000;
+<style>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 </style>

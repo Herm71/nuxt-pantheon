@@ -1,9 +1,5 @@
 <template>
-  <div class="container">
-    <div>
-      <Sites />
-    </div>
-  </div>
+  <Sites />
 </template>
 
 <script>

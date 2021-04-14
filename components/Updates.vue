@@ -26,7 +26,7 @@ export default {
   },
   async created() {
     try {
-      const res = await axios.get("site-updates.json");
+      const res = await axios.get("list-updates.json");
       this.updates = res.data;
       console.log(res.data);
     } catch (err) {

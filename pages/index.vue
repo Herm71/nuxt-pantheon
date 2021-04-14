@@ -1,9 +1,5 @@
 <template>
-  <div class="container">
-    <div>
-      <p>Just like the sign says</p>
-    </div>
-  </div>
+  <p>Just like the sign says</p>
 </template>
 
 <script>
