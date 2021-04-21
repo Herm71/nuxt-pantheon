@@ -32,6 +32,13 @@ html {
   margin: 0;
 }
 
+.container {
+  display: flex;
+  font-size: 90%;
+  color: #333;
+  justify-content: center;
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;

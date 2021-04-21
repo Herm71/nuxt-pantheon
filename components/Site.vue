@@ -1,14 +1,14 @@
 <template>
-  <div class="grid">
-    <p>ID: {{ id }}</p>
-    <p>Name: {{ name }}</p>
-    <p>Created: {{ created }}</p>
-    <p>Framework: {{ framework }}</p>
-    <p>Owner: {{ owner }}</p>
-    <p>Plan name: {{ planName }}</p>
-    <p>Frozen? {{ frozen }}</p>
-    <p>Tags: tags</p>
-  </div>
+  <tr>
+    <td>{{ name }}</td>
+    <td>{{ id }}</td>
+    <td>{{ created }}</td>
+    <td>{{ framework }}</td>
+    <td>{{ owner }}</td>
+    <td>{{ planName }}</td>
+    <td>{{ frozen }}</td>
+    <td>tags placeholder</td>
+  </tr>
 </template>
 
 <script>
