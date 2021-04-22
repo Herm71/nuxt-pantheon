@@ -1,8 +1,9 @@
 <template>
-  <p>Just like the sign says</p>
+  <Sites />
 </template>
 
 <script>
+import Sites from "~/components/Sites.vue";
 export default {
   head() {
     return {
@@ -16,6 +17,7 @@ export default {
       ],
     };
   },
+  components: { Sites },
 };
 </script>
 

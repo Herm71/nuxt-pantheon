@@ -11,6 +11,9 @@
       <li>
         <nuxt-link to="/updates">Updates</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/comm-sites/communications">Communications</nuxt-link>
+      </li>
     </ul>
   </header>
 </template>

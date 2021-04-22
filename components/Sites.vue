@@ -1,33 +1,36 @@
 <template>
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>ID</th>
-          <th>Created</th>
-          <th>Framework</th>
-          <th>Owner</th>
-          <th>Plan name</th>
-          <th>Frozen?</th>
-          <th>Tags</th>
-        </tr>
-      </thead>
-      <tbody>
-        <Site
-          v-for="(site, index) in sites"
-          :id="site.id"
-          :name="site.name"
-          :created="site.created"
-          :framework="site.framework"
-          :owner="site.owner"
-          :planName="site.plan_name"
-          :frozen="site.frozen"
-          :tags="site.tags"
-          :key="index"
-        />
-      </tbody>
-    </table>
+  <div>
+    <h3>UCSC Communications & Marketing Pantheon Sites</h3>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Created</th>
+            <th>Framework</th>
+            <th>Owner</th>
+            <th>Plan name</th>
+            <th>Frozen?</th>
+            <th>Tags</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Site
+            v-for="(site, index) in sites"
+            :id="site.id"
+            :name="site.name"
+            :created="site.created"
+            :framework="site.framework"
+            :owner="site.owner"
+            :planName="site.plan_name"
+            :frozen="site.frozen"
+            :tags="site.tags"
+            :key="index"
+          />
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 

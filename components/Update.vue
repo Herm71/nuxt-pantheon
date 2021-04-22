@@ -1,11 +1,10 @@
 <template>
-  <div class="site">
-    <p>{{ id }}</p>
-    <p>{{ site }}</p>
-    <p>{{ datetime }}</p>
-    <p>{{ message }}</p>
-    <p>{{ author }}</p>
-  </div>
+  <tr class="site">
+    <td>{{ site }}</td>
+    <td>{{ datetime }}</td>
+    <td>{{ message }}</td>
+    <td>{{ author }}</td>
+  </tr>
 </template>
 
 <script>

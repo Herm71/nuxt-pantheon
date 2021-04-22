@@ -7,14 +7,26 @@
     },
     {
         "site": "ucsc-magazine",
-        "datetime": "2020-10-30T22:05:30",
-        "message": "Update to WordPress 5.5.3. For more information, see https://wordpress.org/news/2020/10/wordpress-5-5-3-maintenance-release/",
+        "datetime": "2021-04-15T04:05:39",
+        "message": "Update to WordPress 5.7.1. For more information, see https://wordpress.org/news/2021/04/wordpress-5-7-1-security-and-maintenance-release/",
         "author": "Pantheon Automation"
+    },
+    {
+        "site": "ucsc-magazine",
+        "datetime": "2021-03-23T21:00:00",
+        "message": "Send Cache Control header via Response object\n\nFixes #276.",
+        "author": "Timothy Jacobs"
     },
     {
         "site": "ucsc-magazine",
         "datetime": "2020-10-29T21:05:39",
         "message": "Update to WordPress 5.5.2. For more information, see https://wordpress.org/news/2020/10/wordpress-5-5-2-security-and-maintenance-release/",
+        "author": "Pantheon Automation"
+    },
+    {
+        "site": "ucsc-magazine",
+        "datetime": "2020-10-30T22:05:30",
+        "message": "Update to WordPress 5.5.3. For more information, see https://wordpress.org/news/2020/10/wordpress-5-5-3-maintenance-release/",
         "author": "Pantheon Automation"
     },
     {

@@ -1,14 +1,29 @@
 <template>
-  <div id="updates">
-    <Update
-      v-for="(update, index) in updates"
-      :id="update.id"
-      :site="update.site"
-      :message="update.message"
-      :datetime="update.datetime"
-      :author="update.author"
-      :key="index"
-    />
+  <div>
+    <h3>UCSC Communications & Marketing Pantheon Sites</h3>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Site</th>
+            <th>DateTime</th>
+            <th>Message</th>
+            <th>Author</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Update
+            v-for="(update, index) in updates"
+            :id="update.id"
+            :site="update.site"
+            :message="update.message"
+            :datetime="update.datetime"
+            :author="update.author"
+            :key="index"
+          />
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 <script>
