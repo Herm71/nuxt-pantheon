@@ -1,0 +1,146 @@
+[
+    {
+        "hash": "c173999e7fbc516e588c1ffd381cd3b4af3a628f",
+        "datetime": "2021-04-15T04:05:39",
+        "message": "Update to WordPress 5.7.1. For more information, see https://wordpress.org/news/2021/04/wordpress-5-7-1-security-and-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "cf54a714ca4d9e9d1222e691b51d929515471208",
+        "datetime": "2021-03-23T21:00:00",
+        "message": "Send Cache Control header via Response object\n\nFixes #276.",
+        "author": "Timothy Jacobs"
+    },
+    {
+        "hash": "b72bd4aa4259807ad2db7efba7413c78ff5e558b",
+        "datetime": "2021-03-09T20:55:04",
+        "message": "Update to WordPress 5.7. For more information, see https://wordpress.org/news/2021/03/wordpress-5-7-esperanza/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "4bd7f56122c2e0fc217fbfdb6f60714f5c955039",
+        "datetime": "2021-02-22T16:05:33",
+        "message": "Update to WordPress 5.6.2. For more information, see https://wordpress.org/news/2021/02/wordpress-5-6-2-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "d2fe4dfb28b02b02af013b601e80e6a0c58c4f3a",
+        "datetime": "2021-02-03T22:05:34",
+        "message": "Update to WordPress 5.6.1. For more information, see https://wordpress.org/news/2021/02/wordpress-5-6-1-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "4fa3c49028c1df7f50ff56fdb06cf104c53ecd50",
+        "datetime": "2020-12-09T00:28:01",
+        "message": "Update to WordPress 5.6. For more information, see https://wordpress.org/news/2020/12/simone/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "30466f7826d5f659a94b56715faff5c9098793e8",
+        "datetime": "2020-10-30T22:05:30",
+        "message": "Update to WordPress 5.5.3. For more information, see https://wordpress.org/news/2020/10/wordpress-5-5-3-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "1ded655587c7a2e42efdda87dc5f6bd68be1d542",
+        "datetime": "2020-10-29T21:05:39",
+        "message": "Update to WordPress 5.5.2. For more information, see https://wordpress.org/news/2020/10/wordpress-5-5-2-security-and-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "96fa0e555efdb2611a5c1c87a6183e5b5823a5c4",
+        "datetime": "2020-10-15T17:39:21",
+        "message": "Use pantheon_curl_timeout instead of pantheon_curl\n",
+        "author": "Phil Tyler"
+    },
+    {
+        "hash": "a1a86f6b98eac3d5a661f9a1e761194f8b72e352",
+        "datetime": "2020-10-15T12:38:30",
+        "message": "Update page cache notices to link to caching docs page\n",
+        "author": "Doug Cone"
+    },
+    {
+        "hash": "7e4c4fef96bbc6b0e1fd3b5ca503ceaca69bb209",
+        "datetime": "2020-10-14T12:31:37",
+        "message": "Add DISABLE_PANTHEON_UPDATE_NOTICES constant to disable Pantheon update notice filtering\n",
+        "author": "Doug Cone"
+    },
+    {
+        "hash": "dbc56702b7bce3547c34788b3491ca7a1fe6a2cb",
+        "datetime": "2020-10-13T17:20:59",
+        "message": "Only check for WordPress update when not doing ajax request",
+        "author": "Myles McNamara"
+    },
+    {
+        "hash": "f289ec943eb3da9983a45f61159aae5c4ae0327e",
+        "datetime": "2020-09-01T20:05:47",
+        "message": "Update to WordPress 5.5.1. For more information, see https://wordpress.org/news/2020/09/wordpress-5-5-1-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "5a2b7bacc3351fad692b4d681dffd04187ed9867",
+        "datetime": "2020-08-11T20:05:46",
+        "message": "Update to WordPress 5.5. IMPORTANT: If you select \"Auto-resolve conflicts\" for this release, it may cause your customizations to wp-config.php to be removed. Changes were made in the upstream wp-config.php in order to support wp_get_environment_type(). Double-check the contents of your wp-config.php file after applying this update. If you have problems with merge conflicts, see https://pantheon.io/docs/git-resolve-merge-conflicts\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "01ee7f19821d1019a41b58e107a84bbab0ec26a0",
+        "datetime": "2020-08-07T18:25:14",
+        "message": "wp-config.php: removed deprecated WPLANG, refactored \"if\" logic/syntax\n",
+        "author": "Phil Tyler"
+    },
+    {
+        "hash": "1ddd8b6a89e884cb86f8a5dd876301418b65cae7",
+        "datetime": "2020-07-30T16:26:53",
+        "message": "Introduce wp-config-pantheon, set WP_ENVIRONMENT_TYPE by Pantheon environment\n",
+        "author": "Phil Tyler"
+    },
+    {
+        "hash": "bd2d9887f9b408435d03d9f39a514d21c494afac",
+        "datetime": "2020-06-22T15:24:10",
+        "message": "Add local config sample\n\nCo-authored-by: dylanjameswagner <hello@dylanjameswagner.com>\nCo-authored-by: Doug Cone <nullvariable@users.noreply.github.com>\n",
+        "author": "Doug Cone"
+    },
+    {
+        "hash": "ca4394b428f6b548ecf2aac880a1ffc0510b80a4",
+        "datetime": "2020-06-15T20:14:50",
+        "message": "Amended WordPress 5.4.2 release.\n\nThe WordPress 5.4.2 release included an additional change to the way Pantheon manages protected web paths by adding the list explicitly to the pantheon.upstream.yml file. The paths listed in the new location were missing the trailing '/' character, which changed the behavior of the path matching. This amended release restores the missing trailing slashes. No changes to WordPress itself are included.\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "96aa565e91167a0e9ef9c582eaeb2c910e7c963d",
+        "datetime": "2020-06-10T23:41:10",
+        "message": "Update to WordPress 5.4.2. For more information, see https://wordpress.org/news/2020/06/wordpress-5-4-2-security-and-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "80b2a39c43db6b17e5bda717da1108958be7a5d4",
+        "datetime": "2020-06-10T05:02:16",
+        "message": "[OTTO-357] Add protected_web_paths to upstream\n",
+        "author": "Greg Anderson"
+    },
+    {
+        "hash": "c4a25bb1c6fa94be49378648f12fa2f20c11ddb4",
+        "datetime": "2020-06-09T16:57:11",
+        "message": "change default for new sites from utf8 to utf8mb4",
+        "author": "Doug Cone"
+    },
+    {
+        "hash": "bdfa6f25c886274893c254c40ab983aac83f41a8",
+        "datetime": "2020-04-29T20:40:47",
+        "message": "Update to WordPress 5.4.1. For more information, see https://wordpress.org/news/2020/04/wordpress-5-4-1/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "6ed707d87ba2eda28bb3f6713cd0c778b405d3dc",
+        "datetime": "2020-04-16T18:46:14",
+        "message": "Upstream update notice improvements\n",
+        "author": "Phil Tyler"
+    },
+    {
+        "hash": "8d08f6d75ca6c926f40fe9610b709905452a23dc",
+        "datetime": "2019-07-23T12:43:27",
+        "message": "Introduce 'pantheon_wp_login_text' to allow login text to be filtered\n",
+        "author": "Daniel Bachhuber"
+    }
+]

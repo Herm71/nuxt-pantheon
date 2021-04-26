@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3>UCSC Communications Updates</h3>
-    <h4>Plugins</h4>
+    <h3>UCSC Magazine Themes</h3>
     <div class="table-wrapper">
       <table>
         <thead>
@@ -13,12 +12,12 @@
           </tr>
         </thead>
         <tbody>
-          <CommunicationsPluginUpdates
-            v-for="(plugin, index) in commpluginupdates"
-            :name="plugin.name"
-            :status="plugin.status"
-            :update="plugin.update"
-            :version="plugin.version"
+          <MagazineThemeUpdates
+            v-for="(theme, index) in magthemeupdates"
+            :name="theme.name"
+            :status="theme.status"
+            :update="theme.update"
+            :version="theme.version"
             :key="index"
           />
         </tbody>
@@ -28,21 +27,21 @@
 </template>
 <script>
 import axios from "axios";
-import CommunicationsPluginUpdates from "./CommunicationsPluginUpdates";
+import MagazineThemeUpdates from "./MagazineThemeUpdates";
 export default {
-  name: "CommunicationsUpdates",
+  name: "MagazineThemes",
   components: {
-    CommunicationsPluginUpdates,
+    MagazineThemeUpdates,
   },
   data() {
     return {
-      commpluginupdates: [],
+      magthemeupdates: [],
     };
   },
   async created() {
     try {
-      const res = await axios.get("../ucsc-communications-plugins.json");
-      this.commpluginupdates = res.data;
+      const res = await axios.get("../ucsc-magazine-themes.json");
+      this.magthemeupdates = res.data;
       console.log(res.data);
     } catch (err) {
       console.log(err);

@@ -1,0 +1,14 @@
+[
+    {
+        "hash": "c173999e7fbc516e588c1ffd381cd3b4af3a628f",
+        "datetime": "2021-04-15T04:05:39",
+        "message": "Update to WordPress 5.7.1. For more information, see https://wordpress.org/news/2021/04/wordpress-5-7-1-security-and-maintenance-release/\n",
+        "author": "Pantheon Automation"
+    },
+    {
+        "hash": "cf54a714ca4d9e9d1222e691b51d929515471208",
+        "datetime": "2021-03-23T21:00:00",
+        "message": "Send Cache Control header via Response object\n\nFixes #276.",
+        "author": "Timothy Jacobs"
+    }
+]

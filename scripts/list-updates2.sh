@@ -7,5 +7,6 @@ ORG_UUID="1e313ee8-0a12-4fda-b6a0-1360ea825bb6"
 PANTHEON_SITES="$(terminus org:site:list -n ${ORG_UUID} --format=list --field=Name)"
 
 for SITE in $PANTHEON_SITES; do
-  terminus wp $SITE.dev -- core check-update --format=json > ../static/$SITE-wp-core-update.json
+  terminus upstream:updates:list --format=json -- $SITE.dev > ../static/$SITE-upstream-updates.json
 done
+

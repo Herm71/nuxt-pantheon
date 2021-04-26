@@ -6,13 +6,10 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/sites">Sites</nuxt-link>
+        <nuxt-link to="/updates">Core Updates</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/updates">Updates</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/comm-sites/communications">Communications</nuxt-link>
+        <nuxt-link to="/sites/communications">Communications</nuxt-link>
       </li>
     </ul>
   </header>
