@@ -16,5 +16,9 @@ export default {
     MagazinePlugins,
     MagazineThemes,
   },
+  mounted() {
+    // console.log(this.$route.fullPath);
+    console.log(this.$router.options.routes);
+  },
 };
 </script>

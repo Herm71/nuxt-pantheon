@@ -16,5 +16,9 @@ export default {
     CommunicationsPlugins,
     CommunicationsThemes,
   },
+  mounted() {
+    // console.log(this.$route.fullPath);
+    console.log(this.$router.options.routes);
+  },
 };
 </script>

@@ -37,6 +37,7 @@ html {
   font-size: 90%;
   color: #333;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .button--green {

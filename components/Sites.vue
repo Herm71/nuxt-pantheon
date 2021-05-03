@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss">
 .table-wrapper {
-  max-width: 1080px;
+  // max-width: 1080px;
   overflow: scroll;
 }
 
@@ -71,7 +71,7 @@ table {
 }
 td,
 th {
-  white-space: nowrap;
+  white-space: wrap;
   border: 1px solid #ddd;
   padding: 20px;
 }
