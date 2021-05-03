@@ -6,7 +6,7 @@
   </div>
 </template>
 <router>{
-  name: 'ucsc-magazine'
+  name: 'ucsc-pbsci'
 }</router>
 <script>
 import PbsciUpstream from "~/components/PbsciUpstream.vue";

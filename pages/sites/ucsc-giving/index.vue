@@ -6,7 +6,7 @@
   </div>
 </template>
 <router>{
-  name: 'ucsc-magazine'
+  name: 'ucsc-giving'
 }</router>
 <script>
 import GivingUpstream from "~/components/GivingUpstream.vue";

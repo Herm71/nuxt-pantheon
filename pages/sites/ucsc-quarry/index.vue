@@ -6,7 +6,7 @@
   </div>
 </template>
 <router>{
-  name: 'ucsc-magazine'
+  name: 'ucsc-quarry'
 }</router>
 <script>
 import QuarryUpstream from "~/components/QuarryUpstream.vue";
