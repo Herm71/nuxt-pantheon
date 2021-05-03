@@ -5,7 +5,9 @@
     <CommunicationsThemes />
   </div>
 </template>
-
+<router>{
+  name: 'ucsc-communications'
+}</router>
 <script>
 import CommunicationsUpstream from "~/components/CommunicationsUpstream.vue";
 import CommunicationsPlugins from "~/components/CommunicationsPlugins.vue";

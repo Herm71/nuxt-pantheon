@@ -1,12 +1,11 @@
 <template>
   <tr>
-    <!-- <td>
-      <nuxt-link
-        :to="{ name: 'sites-ucsc-communications', params: { fullPath } }"
-        >{{ name }}</nuxt-link
-      >
-    </td> -->
-    <td>{{ name }}</td>
+    <td>
+      <nuxt-link :to="{ name: 'ucsc-magazine', params: { fullPath } }">{{
+        name
+      }}</nuxt-link>
+    </td>
+    <!-- <td>{{ name }}</td> -->
     <td>{{ id }}</td>
     <td>{{ created }}</td>
     <td>{{ framework }}</td>

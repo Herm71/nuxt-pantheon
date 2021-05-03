@@ -33,6 +33,8 @@ export default {
         '@nuxtjs/stylelint-module',
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
+        // https://github.com/nuxt-community/router-extras-module
+        '@nuxtjs/router-extras',
     ],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
