@@ -92,3 +92,7 @@ sw.*
 # Stylelint local
 .stylelintrc
 .stylelintrc
+
+# scripts
+list-sites-terminal.sh
+scripts/
