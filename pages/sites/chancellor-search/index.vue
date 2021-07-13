@@ -5,9 +5,7 @@
     <MagazineThemes />
   </div>
 </template>
-<router>{
-  name: 'chancellor-search'
-}</router>
+
 <script>
 import MagazineUpstream from "~/components/MagazineUpstream.vue";
 import MagazinePlugins from "~/components/MagazinePlugins.vue";

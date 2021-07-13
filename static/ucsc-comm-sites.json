@@ -32,50 +32,10 @@
     "98989234-5e1d-43d9-9e0a-db30515a79e7": {
         "name": "ucsc-giving",
         "id": "98989234-5e1d-43d9-9e0a-db30515a79e7",
-        "plan_name": "Basic",
+        "plan_name": "Sandbox",
         "framework": "wordpress",
         "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
         "created": 1500592161,
-        "tags": "ur",
-        "frozen": false
-    },
-    "a30ab6d9-8b40-4682-b989-f35bb814c988": {
-        "name": "ucsc-pbsci",
-        "id": "a30ab6d9-8b40-4682-b989-f35bb814c988",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
-        "created": 1531432857,
-        "tags": "ur",
-        "frozen": false
-    },
-    "ae05ce5c-521d-4b2c-9465-568fd33c30ae": {
-        "name": "ucsc-safe",
-        "id": "ae05ce5c-521d-4b2c-9465-568fd33c30ae",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
-        "created": 1438188437,
-        "tags": "ur",
-        "frozen": true
-    },
-    "b02e4cfb-2a0a-41bb-ad18-35215d04a92a": {
-        "name": "classof2020",
-        "id": "b02e4cfb-2a0a-41bb-ad18-35215d04a92a",
-        "plan_name": "Sandbox",
-        "framework": "drupal8",
-        "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
-        "created": 1588638075,
-        "tags": "ur",
-        "frozen": true
-    },
-    "d9e17546-08e2-4a0d-9693-a335399029da": {
-        "name": "chancellor-search",
-        "id": "d9e17546-08e2-4a0d-9693-a335399029da",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
-        "created": 1539126328,
         "tags": "ur",
         "frozen": false
     },
@@ -89,16 +49,6 @@
         "tags": "ur",
         "frozen": false
     },
-    "5ba9848f-77ed-4fb9-887c-44255a71e2b5": {
-        "name": "pbsci-intranet",
-        "id": "5ba9848f-77ed-4fb9-887c-44255a71e2b5",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "3b8df062-b0aa-4f6b-8758-c3ad533f9e3c",
-        "created": 1549056872,
-        "tags": "ur",
-        "frozen": true
-    },
     "5d30e09d-db66-4c83-ac4d-a506c3c42d92": {
         "name": "ucsc-sustainability",
         "id": "5d30e09d-db66-4c83-ac4d-a506c3c42d92",
@@ -108,16 +58,6 @@
         "created": 1507915160,
         "tags": "ur",
         "frozen": false
-    },
-    "68dfae49-b0e0-40cb-8a98-37944ac5cbec": {
-        "name": "alumni-weekend",
-        "id": "68dfae49-b0e0-40cb-8a98-37944ac5cbec",
-        "plan_name": "Sandbox",
-        "framework": "wordpress",
-        "owner": "b61e4037-1978-476c-9502-eb0138c5881a",
-        "created": 1483644041,
-        "tags": "ur",
-        "frozen": true
     },
     "6ee9858b-6dd7-4243-978e-8629ee0e2b58": {
         "name": "ucsc-epc",
